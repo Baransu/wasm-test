@@ -13,7 +13,7 @@ struct Person {
 js_serializable!(Person);
 
 fn say_hello(person: Person) {
-    println!("Hello {}!", person.name);
+    println!("Hello from Rust {}!", person.name);
 }
 
 fn main() {
